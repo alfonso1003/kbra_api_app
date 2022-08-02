@@ -29,3 +29,6 @@ python3 manage.py populate_addresses_table
 # run development server
 python3 manage.py run
 ```
+
+## API Documentation
+http://127.0.0.1:5000/api/
