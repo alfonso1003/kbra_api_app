@@ -15,7 +15,7 @@ def create_address(data):
         db.session.rollback()
         return {
             "message": f"This email ({address.email}) and/or phone number ({address.phone_number}) already exists in the database."
-        }, 404
+        }, 409
 
 
 def get_all_addresses():
@@ -43,7 +43,7 @@ def update_address(address_id, data):
         db.session.rollback()
         return {
             "message": f"This email ({address.email}) and/or phone number ({address.phone_number}) already exists in the database."
-        }, 404
+        }, 409
 
 
 def delete_address(address_id):
