@@ -1,5 +1,7 @@
 # AddressBook API
 
+Adapted from [YouTube tutorial](https://youtu.be/YvoeMwMi3vc)
+
 ## Run the following sequence of commands once to set up the environment:
 
 ```
